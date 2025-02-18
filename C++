@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;// 2D
+int main()
+{
+    int a[5][5],r,c;
+    
+    for(r=0;r<2;r++)
+    for(c=0;c<2;c++)
+    cin>>a[r][c];
+    
+    for(r=0;r<2;r++)
+      {
+          for(c=0;c<2;c++)
+          {cout<<a[r][c]<<"\t";}
+          cout<<"\n";
+      }
+    
+}
